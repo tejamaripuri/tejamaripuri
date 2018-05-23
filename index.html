@@ -21,7 +21,46 @@
 
 <body>
   <!-- Header -->
-  <div class="" id="header"></div>
+  <header class="main-header">
+    <nav class="transparent nav-wrapper z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-nav" class="button-collapse show-on-large">
+          <i class="material-icons">menu</i>
+        </a>
+        <a href="index.html" class="brand-logo">TM</a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active">
+            <a href="index.html">Abstract</a>
+          </li>
+          <li>
+            <a href="experience.html">Experience</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="side-nav" id="mobile-nav">
+        <li>
+          <a href="index.html">Abstract</a>
+        </li>
+        <li>
+          <a href="experience.html">Experience</a>
+        </li>
+        <li>
+          <a href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="center">Your Friendly Neighborhood
+      <a href="" class="typewrite" data-period="2000" data-type='[ "Coder.", "Developer.", "Gamer.", "Otaku.", "Geek.", "Techie." ]'>
+        <span class="wrap"></span>
+      </a>
+    </h1>
+    <h4 class="center">
+      <span class="teal-text text-darken-2">T</span>eja
+      <span class="teal-text text-darken-2">M</span>aripuri</h4>
+  </header>
 
   <!-- Section: Skills -->
   <section class="section section-skills">
@@ -140,7 +179,53 @@
   </section>
 
   <!-- Footer -->
-  <div class="" id="footer"></div>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Me</h5>
+          <p class="grey-text text-lighten-4">I am a passionate Developer and have an obsessive personality for Perfection.</p>
+
+          <div>
+            <p>Follow me on</p>
+            <a href="https://www.facebook.com/emoneo99" target="_blank">
+              <i class="fab fa-3x fa-facebook icn-link"></i>
+            </a>
+
+            <a href="https://twitter.com/emoneo999" target="_blank">
+              <i class="fab fa-3x fa-twitter icn-link"></i>
+            </a>
+            <a href="https://github.com/tejamaripuri" target="_blank">
+              <i class="fab fa-3x fa-github icn-link"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/teja-maripuri/" target="_blank">
+              <i class="fab fa-3x fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="index.html">Abstract</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="experience.html">Experience</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        Teja Maripuri &copy; 2018
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -152,9 +237,6 @@
 
   <script>
     $(document).ready(function () {
-
-      $("#header").load("_header.html");
-      $("#footer").load("_footer.html");
 
       // Init SideNav
       $('.button-collapse').sideNav();
