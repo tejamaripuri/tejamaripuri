@@ -158,6 +158,20 @@
         </div>
     </footer>
 
+    <!-- FAB TOOLBAR -->
+    <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large red pulse">
+            <i class="far fa-address-card"></i>
+        </a>
+        <ul>
+            <li class="waves-effect waves-light">
+                <a href="https://drive.google.com/open?id=1OD1wUutaYkWTOYRXew8-Gp6SnXxC6cwB" target="_blank">
+                    DOWNLOAD RESUME
+                </a>
+            </li>
+        </ul>
+    </div>
+
     <!-- Modal 1 -->
     <div class="modal" id="infosys">
         <div class="modal-content">
@@ -235,6 +249,9 @@
             ];
 
             Materialize.scrollFire(options);
+
+            // Init Fixed Action Button
+            $('.fixed-action-btn').floatingActionButton();
 
 
         });

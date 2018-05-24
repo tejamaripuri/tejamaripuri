@@ -253,7 +253,19 @@
         </div>
     </footer>
 
-
+    <!-- FAB TOOLBAR -->
+    <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large red pulse">
+            <i class="far fa-address-card"></i>
+        </a>
+        <ul>
+            <li class="waves-effect waves-light">
+                <a href="https://drive.google.com/open?id=1OD1wUutaYkWTOYRXew8-Gp6SnXxC6cwB" target="_blank">
+                    <h5>DOWNLOAD RESUME</h4>
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -278,6 +290,9 @@
                     $('#myCanvasContainer').hide();
                 }
             });
+
+            // Init Fixed Action Button
+            $('.fixed-action-btn').floatingActionButton();
 
         });
     </script>
