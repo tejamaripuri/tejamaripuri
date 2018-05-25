@@ -6837,7 +6837,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @font-face {
   font-family: downloadFont;
-  src: url(/fonts/OVFont.ttf); }
+  src: url(./fonts/OVFont.ttf); }
 body {
   background: #00796b;
   color: #ffffff; }
