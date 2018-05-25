@@ -6835,6 +6835,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+@font-face {
+  font-family: downloadFont;
+  src: url(/fonts/OVFont.ttf); }
 body {
   background: #00796b;
   color: #ffffff; }
@@ -6879,3 +6882,8 @@ body {
 
 .icn-link {
   padding-right: 10px; }
+
+.download {
+  font-family: downloadFont;
+  font-style: italic;
+  font-size: xx-large; }
