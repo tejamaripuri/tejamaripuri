@@ -6837,11 +6837,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @font-face {
   font-family: downloadFont;
-<<<<<<< HEAD
-  src: local("OVFont"), url("../fonts/OVFont.ttf") format("opentype"); }
-=======
-  src: url("../tejamaripuri/fonts/OVFont.ttf"); }
->>>>>>> d90592e093ed6cab37b1b5e209d9c1b65e9293ca
+  src: local("OVFont"), url("../tejamaripuri/fonts/OVFont.ttf") format("opentype"); }
 body {
   background: #00796b;
   color: #ffffff; }
